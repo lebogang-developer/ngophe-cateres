@@ -411,7 +411,7 @@
             <!-- Ordering Info -->
             <div class="text-gray-600">
               <p class="flex items-center mb-2">
-                <i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i> 4190
+                <i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i> 4196
                 Moroka Loc, Thaba Nchu, 9780
               </p>
               <p class="flex items-center mb-2">
@@ -430,7 +430,7 @@
             <h3 class="text-2xl font-semibold text-gray-800 mb-4">
               Send Us a Message
             </h3>
-            <form action="#" method="POST" class="space-y-4">
+            <form id="contactForm" class="space-y-4">
               <div>
                 <label
                   for="name"
@@ -443,6 +443,9 @@
                   name="name"
                   class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500"
                 />
+                <span class="text-red-500 text-sm hidden" id="nameError"
+                  >Please enter your name.</span
+                >
               </div>
 
               <div>
@@ -457,6 +460,9 @@
                   name="email"
                   class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500"
                 />
+                <span class="text-red-500 text-sm hidden" id="emailError"
+                  >Please enter a valid email address.</span
+                >
               </div>
 
               <div>
@@ -471,6 +477,9 @@
                   rows="4"
                   class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500"
                 ></textarea>
+                <span class="text-red-500 text-sm hidden" id="messageError"
+                  >Please enter a message.</span
+                >
               </div>
 
               <button
@@ -550,9 +559,9 @@
           <a href="#" class="text-gray-400 hover:text-yellow-500"
             ><i class="fab fa-instagram fa-2x"></i
           ></a>
-          <a href="#" class="text-gray-400 hover:text-yellow-500"
+          <!-- <a href="#" class="text-gray-400 hover:text-yellow-500"
             ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
+          ></a> -->
         </div>
 
         <!-- Copyright -->
