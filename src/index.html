@@ -6,6 +6,7 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
     <title>Ngophe Cateres | Catering</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <!-- Font Awesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM0s7Z3o1hbP3I0UPt/MPxzATf6Xz2b7/6vWbFV" crossorigin="anonymous">
 </head>
@@ -76,7 +77,7 @@
         <div class="text-center text-white px-6 md:px-12">
           <h1 class="text-4xl md:text-5xl font-bold mb-4">Delicious Daily Meals & Catering</h1>
           <p class="text-lg md:text-xl mb-6">Bringing fresh and delightful flavors to your table, whether it’s a quick bite or a grand celebration.</p>
-          <a href="#" class="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-md hover:bg-yellow-600">Order Now</a>
+          <a href="#contact" class="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-md hover:bg-yellow-600">Order Now</a>
         </div>
       </div>
    </section>
@@ -85,6 +86,7 @@
     <section id="menu" class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Menu</h2>
+            <div class="w-24 h-1 bg-yellow-500 mx-auto mb-12"></div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <!-- Menu Item 1 -->
@@ -95,7 +97,7 @@
                 </div>
                 <p class="text-gray-600 mb-4">Juicy beef patty with fresh lettuce, tomato, and our signature sauce on a toasted bun.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$9.99</span>
+                  <span class="text-xl font-bold text-gray-800">R9.99</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
@@ -108,7 +110,7 @@
                 </div>
                 <p class="text-gray-600 mb-4">Crispy crust, gooey cheese, and loaded with pepperoni for a classic delight.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$12.99</span>
+                  <span class="text-xl font-bold text-gray-800">R12.99</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
@@ -121,7 +123,7 @@
                 </div>
                 <p class="text-gray-600 mb-4">Succulent grilled chicken with herbs and spices, served with a side of veggies.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$10.99</span>
+                  <span class="text-xl font-bold text-gray-800">R10.99</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
@@ -134,7 +136,7 @@
                 </div>
                 <p class="text-gray-600 mb-4">Crispy battered fish served with golden fries and tartar sauce.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$11.49</span>
+                  <span class="text-xl font-bold text-gray-800">R11.49</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
@@ -147,7 +149,7 @@
                 </div>
                 <p class="text-gray-600 mb-4">Fresh romaine lettuce with croutons, parmesan, and Caesar dressing.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$8.99</span>
+                  <span class="text-xl font-bold text-gray-800">R8.99</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
@@ -160,20 +162,100 @@
                 </div>
                 <p class="text-gray-600 mb-4">Freshly brewed coffee with your choice of milk or flavors.</p>
                 <div class="flex justify-between items-center">
-                  <span class="text-xl font-bold text-gray-800">$4.50</span>
+                  <span class="text-xl font-bold text-gray-800">R4.50</span>
                   <a href="#" class="text-yellow-500 hover:text-yellow-600 font-semibold">Order Now</a>
                 </div>
               </div>
               
             </div>
           </div>
-
     </section>
+
+    <!-- Services Section -->
+<section id="services" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Services</h2>
+      <div class="w-24 h-1 bg-yellow-500 mx-auto mb-12"></div>
+      
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        
+        <!-- Event Catering -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Event Catering</h3>
+          <p class="text-gray-600 mt-3">
+            Full-service catering for weddings, corporate events, and private gatherings with customizable menus.
+          </p>
+        </div>
+        
+        <!-- Buffet Service -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-concierge-bell"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Buffet Service</h3>
+          <p class="text-gray-600 mt-3">
+            A variety of dishes presented buffet-style for guests to enjoy, ideal for larger gatherings.
+          </p>
+        </div>
+        
+        <!-- Drop-Off Catering -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Drop-Off Catering</h3>
+          <p class="text-gray-600 mt-3">
+            Convenient delivery of prepared meals and beverages, perfect for office lunches or casual events.
+          </p>
+        </div>
+        
+        <!-- Beverage Service -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-coffee"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Beverage Service</h3>
+          <p class="text-gray-600 mt-3">
+            Full range of drink options including cocktails, mocktails, and non-alcoholic beverages.
+          </p>
+        </div>
+        
+        <!-- Meal Prep Services -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-box-open"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Meal Prep Services</h3>
+          <p class="text-gray-600 mt-3">
+            Healthy, ready-to-eat meals prepared and delivered weekly to make your life easier.
+          </p>
+        </div>
+        
+        <!-- Custom Menus -->
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+          <div class="text-yellow-500 text-5xl mb-4">
+            <i class="fas fa-list-alt"></i>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-800">Custom Menus</h3>
+          <p class="text-gray-600 mt-3">
+            Work with our chefs to create a tailored menu that suits your event theme and dietary needs.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+
 
      <!-- Contact Section -->
   <section id="contact" class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Contact Us</h2>
+      <div class="w-24 h-1 bg-yellow-500 mx-auto mb-12"></div>
       <!-- Contact information goes here -->
     </div>
   </section>

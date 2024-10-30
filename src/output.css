@@ -603,6 +603,10 @@ video {
   margin-right: 1rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -647,6 +651,10 @@ video {
   height: 100vh;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -665,6 +673,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-7xl {
@@ -844,6 +856,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
