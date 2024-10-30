@@ -6,8 +6,12 @@ document.getElementById('menu-btn').onclick = function () {
  // Image Slider
  const sliderImages = [
     './assets/images/setup-5.jpg',
+    './assets/images/team.jpg',
     './assets/images/party-1.jpg',
+    './assets/images/funeral.jpg',
     './assets/images/setup-3.jpg',
+    './assets/images/setup-1.jpg',
+    './assets/images/students.jpg',
     './assets/images/wedding-2.jpg'
   ];
   let currentImageIndex = 0;
