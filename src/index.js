@@ -26,6 +26,7 @@ document.getElementById('menu-btn').onclick = function () {
   changeSlide();
   setInterval(changeSlide, 3000); // Change image every 3 seconds
 
+  // Form validation
  // Select form and input elements
 const form = document.getElementById('contactForm');
 const nameInput = document.getElementById('name');
